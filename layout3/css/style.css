@@ -1,0 +1,39 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+nav,main,aside{
+width: 10%;
+float: left;
+list-style-type: none;
+}
+
+main{
+  width: 50%
+}
+
+aside{
+  width: 40%;
+}
+
+.bottom{
+  width: 33.3333%;
+  margin-left: 10px;
+  height: 200px;
+  clear: both;
+}
